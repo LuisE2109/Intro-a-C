@@ -12,21 +12,20 @@ class Program
         // Condición 1: Edad
         if (edad >= 18)
         {
-            Console.WriteLine(nombre + " puede conducir");
+            Console.WriteLine(nombre " puede conducir");
         }
         else
         {
-            Console.WriteLine(nombre + " es menor de edad");
+            Console.WriteLine(nombre " no puede conducir");
         }
-
         // Condición 2: Licencia
         if (tieneLicencia == true)
         {
-            Console.WriteLine(nombre + " tiene licencia");
+            Console.WriteLine(nombre " tiene licencia");
         }
         else
         {
-            Console.WriteLine(nombre + " no tiene licencia");
+            Console.WriteLine(nombre " no tiene licencia");
         }
     }
 }
